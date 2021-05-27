@@ -7,3 +7,4 @@ Resource             ../resources/locators.robot
     [Tags]              training
     OpenBrowser         about:blank    chrome
     GoTo                http://automationpractice.com/
+    CloseAllBrowsers
