@@ -5,6 +5,6 @@ Resource             ../resources/locators.robot
 *** Test Cases ***
     [Documentation]     The first exercise test case
     [Tags]              training
-    ${BROWSER}
-    ${URL}
+    OpenBrowser         about:blank    ${BROWSER}
+    GoTo                ${URL}
     CloseAllBrowsers
