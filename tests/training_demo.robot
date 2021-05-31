@@ -5,6 +5,6 @@ Resource             ../resources/locators.robot
 *** Test Cases ***
     [Documentation]     The first exercise test case
     [Tags]              training
-    OpenBrowser         about:blank    chrome
-    GoTo                http://automationpractice.com/
+    ${BROWSER}
+    ${URL}
     CloseAllBrowsers
